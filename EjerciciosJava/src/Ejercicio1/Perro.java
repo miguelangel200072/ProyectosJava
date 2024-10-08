@@ -1,4 +1,8 @@
-// Subclase Perro que hereda de Animal y es final
+package Ejercicio1;
+
+import Ejercicio1.Animal;
+
+// Subclase Ejercicio1.Perro que hereda de Ejercicio1.Animal y es final
 final class Perro extends Animal {
     @Override
     public void hacerSonido() {

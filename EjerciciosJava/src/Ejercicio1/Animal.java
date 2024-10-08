@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 // Clase base
 public class Animal {
     // Método que será sobrescrito
