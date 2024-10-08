@@ -19,13 +19,20 @@ public class RepositorioDePersonas {
 
     // Método para eliminar una persona por ID
     public void eliminarPersona(int id) {
-        boolean eliminado = personas.removeIf(persona -> persona.getId() == id);
-        if (eliminado) {
-            System.out.println("Persona con ID " + id + " eliminada.");
-        } else {
+        boolean encontrado = false; // Variable para verificar si se encontró la persona
+        for (Persona persona : personas) {
+            if (persona.getId() == id) {
+                personas.remove(persona);
+                System.out.println("Persona con ID " + id + " eliminada.");
+                encontrado = true; // Se encontró y eliminó la persona
+                break; // Salir del bucle una vez eliminada
+            }
+        }
+        if (!encontrado) {
             System.out.println("No se encontró persona con ID " + id + ".");
         }
     }
+
 
     // Método para listar todas las personas
     public void listarPersonas() {
