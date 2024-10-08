@@ -1,0 +1,3 @@
+El error es: "Cannot inherit from final 'Ejercicio2.Vehiculo'"
+Este error ocurre porque la clase Vehiculo está marcada con la palabra clave final y no puede ser extendida, es decir no se pueden crear subclases a partir de ella.
+Esta palabra sirve para prevenir que una clase sea modificada o extendida.
