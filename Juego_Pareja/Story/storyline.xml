@@ -1,0 +1,435 @@
+<story>
+    <dialogue id="titleScreen">
+        <text>
+                            ░█░█░█▀▀░█░░░█▀▀░█▀█░█▄█░█▀▀░░░▀█▀░█▀█
+                            ░█▄█░█▀▀░█░░░█░░░█░█░█░█░█▀▀░░░░█░░█░█
+                            ░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░░▀░░▀▀▀
+        █████ ██████   █████ ███████████ ██████████ ███████████   ██████   █████    ███████
+        ░░███ ░░██████ ░░███ ░░███░░░░░░█░░███░░░░░█░░███░░░░░███ ░░██████ ░░███   ███░░░░░███
+        ░███  ░███░███ ░███  ░███   █ ░  ░███  █ ░  ░███    ░███  ░███░███ ░███  ███     ░░███
+        ░███  ░███░░███░███  ░███████    ░██████    ░██████████   ░███░░███░███ ░███      ░███
+        ░███  ░███ ░░██████  ░███░░░█    ░███░░█    ░███░░░░░███  ░███ ░░██████ ░███      ░███
+        ░███  ░███  ░░█████  ░███  ░     ░███ ░   █ ░███    ░███  ░███  ░░█████ ░░███     ███
+        █████ █████  ░░█████ █████       ██████████ █████   █████ █████  ░░█████ ░░░███████░
+        ░░░░░ ░░░░░    ░░░░░ ░░░░░       ░░░░░░░░░░ ░░░░░   ░░░░░ ░░░░░    ░░░░░    ░░░░░░░
+        </text>
+        <nextDialogueId>Character</nextDialogueId>
+    </dialogue>
+    <dialogue id="Character">
+        <text>character</text>
+        <nextDialogueId>Intro</nextDialogueId>
+    </dialogue>
+    <dialogue id="Intro">
+        <text>
+        After opening a strange book inside a bookstore you find yourself at Hell's doorstep
+        reading a weird paper sign that reads:
+
+      ┌──────────────────────────────────────────────────────────────────────────────────────┐
+      │ HELP!! Whoever reads this, I hope you are stronger than all of those who came before │
+      │  you because you now have to get to Lucifer and rid him of the 'Heart of the Abyss', │
+      │  a magical rock that gives control over the Abyssal power and turns its bearer into  │
+      │     Hell's Sovereign, otherwise all souls will be doomed to suffer for eternity!     │
+      │      And REMEMBER, the more Sins you carry the greater the chances are that you      │
+      │                                   DO NOT SURVIVE!                                    │
+      └──────────────────────────────────────────────────────────────────────────────────────┘
+
+        You think for a moment before opening the old metal gate and walking inside...
+
+        </text>
+        <nextDialogueId>Phrase</nextDialogueId>
+    </dialogue>
+    <dialogue id="Phrase">
+        <text>
+        In the depths of despair, where souls linger and sins fester, your journey through
+        the Inferno begins. Will you seek redemption or embrace the darkness?
+        </text>
+        <nextDialogueId>1</nextDialogueId>
+    </dialogue>
+    <dialogue id="1">
+        <text>
+        ╒═══════════════════════════════════════════════════════════════════════════════╕
+        │                                    \                                          │
+        │                                      \   O,                                   │
+        │                            \___________\/ )_________/                         │
+        │    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  │
+        │                                            \                                  │
+        ╘═══════════════════════════════════════════════════════════════════════════════╛
+
+        After walking alongside other souls you find a queue leading to Charon,
+        the underworld's ferryman, who takes each soul individually to their new destination.
+        </text>
+        <options>
+            <option description="Wait in line for Charon to take you to the first circle." nextDialogueId="4" />
+            <option description="Skip ahead of everyone and get on his boat first." nextDialogueId="2" alternativeNextId="3" reward="5 Sins" />
+        </options>
+    </dialogue>
+    <dialogue id="2">
+        <text>
+        You throw a rock aside to distract all souls and run to jump on Charon's boat just
+        before he reaches the coast. You make it, and he takes you to the first circle while
+        hearing all other souls' cries of disgust. You get 5 Sin points.
+        </text>
+        <nextDialogueId>4</nextDialogueId>
+    </dialogue>
+    <dialogue id="3">
+        <text>
+        You throw a rock aside to distract all souls and run to jump on Charon's boat just
+        before he reaches the coast. You don't reach the boat and thus fall into the river
+        of lost souls to roam it for eternity.
+        </text>
+        <nextDialogueId>DEATH</nextDialogueId>
+    </dialogue>
+    <dialogue id="4">
+        <text>
+                ╒══════════════════════════════════════════════════════════╕
+                │         ,,,                      ,,,                     │
+                │        {{{}}    ,,,             {{{}}    ,,,             │
+                │     ,,, ~Y~    {{{}},,,      ,,, ~Y~    {{{}},,,         │
+                │    {{}}} |/,,,  ~Y~{{}}}    {{}}} |/,,,  ~Y~{{}}}        │
+                │     ~Y~ \|{{}}}/\|/ ~Y~  ,,, ~Y~ \|{{}}}/\|/ ~Y~  ,,,    │
+                │     \|/ \|/~Y~  \|,,,|/ {{}}}\|/ \|/~Y~  \|,,,|/ {{}}}   │
+                │     \|/ \|/\|/  \{{{}}/  ~Y~ \|/ \|/\|/  \{{{}}/  ~Y~    │
+                │     \|/\\|/\|/ \\|~Y~//  \|/ \|/\\|/\|/ \\|~Y~//  \|/    │
+                │     \|//\|/\|/,\\|/|/|// \|/ \|//\|/\|/,\\|/|/|// \|/    │
+                │    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   │
+                │                     Asphodel meadows                     │
+                ╘══════════════════════════════════════════════════════════╛
+
+        Charon drops you off at river Acheron's coast, and you only have to walk a bit to
+        find yourself in the first circle of Hell, the Limbo. The first thing you see is the
+        vast Asphodel Meadows where an old man, Virgil, is standing speaking with other
+        non-baptised folk. He offers to guide you but only if you decide to face the
+        weight of your sins. What do you say?
+        </text>
+        <options>
+            <option description="Accept Virgil's help by facing your sins." nextDialogueId="5"  reward="10 Sins"/>
+            <option description="Reject Virgil's offer." nextDialogueId="6" />
+        </options>
+    </dialogue>
+    <dialogue id="5">
+        <text>
+        You accept Virgil's help, and he guides you to the next phase, while walking towards
+        it, you meet several people and try an asphodel, but since you are not dead it has no taste.
+        You get 10 Sin points.
+        </text>
+        <nextDialogueId>7</nextDialogueId>
+    </dialogue>
+    <dialogue id="6">
+        <text>
+        After you reject Virgil's offer you start walking towards the end of the Limbo, but
+        the furies start appearing everywhere you look, and suddenly they attack you.
+        This will be the price to pay for not facing your sins...
+        </text>
+        <nextDialogueId>furyBattle</nextDialogueId>
+    </dialogue>
+    <dialogue id="7">
+        <text>
+                                  ╒═══════════════════════════════════╕
+                                  │                 /\\_/\\____,      │
+                                  │    ,___/\\_/\\  \\  ~     /       │
+                                  │     \\     ~  \\ )    XXX         │
+                                  │      XXX        /   /\\_/\\___,   │
+                                  │          \\o-o/-o-o/   ~     /    │
+                                  │            ) /     \\    XXX      │
+                                  │           _|      / \\ \\_/       │
+                                  │       ,-/   _  \\_/   \\          │
+                                  │      / (   /____,__|  )           │
+                                  │     (  |_ (    )  \\) _|          │
+                                  │    _/ _)   \\    \\__/   (_       │
+                                  │   (,-(,(,(,/       \\,),),)       │
+                                  ╘═══════════════════════════════════╛
+
+        After walking for a while and crossing the second circle you reach the entrance to the
+        third circle of Hell, Gluttony. You travel across it until you see a new entrance in
+        the distance, but all of a sudden Cerberus appears and blocks your path.
+        What will you do?
+        </text>
+        <options>
+            <option description="Attack Cerberus, getting an object that might be helpful later on." nextDialogueId="cerberusBattle" />
+            <option description="Try to win Cerberus over so he lets you go." nextDialogueId="8" alternativeNextId="9"  reward="5 Sins"/>
+            <option description="Try to run away and get through another route." nextDialogueId="10" alternativeNextId="11"  reward="15 Sins"/>
+        </options>
+    </dialogue>
+    <dialogue id="8">
+        <text>
+        You see a huge bone a few meters from you and decide to throw it to him.
+        Unsurprisingly he runs to catch it, and you proceed to run towards the entrance to the
+        next circle. You get 5 Sin points.
+        </text>
+        <nextDialogueId>12</nextDialogueId>
+    </dialogue>
+    <dialogue id="9">
+        <text>
+        You can't find anything with which to win Cerberus over or distract him with,
+        he runs towards you and eats you.
+        </text>
+        <nextDialogueId>DEATH</nextDialogueId>
+    </dialogue>
+    <dialogue id="10">
+        <text>
+        You got away from Cerberus before he could see you and found an alternative route,
+        but it's so long that you have tons of time to think about your Sins and their weight
+        on your back. You get 15 Sin points.
+        </text>
+        <nextDialogueId>12</nextDialogueId>
+    </dialogue>
+    <dialogue id="11">
+        <text>
+        You try to run away from Cerberus, but he's faster than you, catches you and eats you.
+        </text>
+        <nextDialogueId>DEATH</nextDialogueId>
+    </dialogue>
+    <dialogue id="12">
+        <text>
+        ╒════════════════════════════════════════════════════════════════════════════╕
+        │                            .                                               │
+        │                        /   ))     |\         )               ).            │
+        │                  c--. (\  ( `.    / )  (\   ( `.     ).     ( (            │
+        │                  | |   ))  ) )   ( (   `.`.  ) )    ( (      ) )           │
+        │                 | |  ( ( / _..----.._  ) | ( ( _..----.._  ( (             │
+        │   ,-.           | |---) V.'-------.. `-. )-/.-' ..------ `--) \._          │
+        │   | /===========| |  (   |      ) ( ``-.`\/'.-''           (   ) ``-._     │
+        │   | | / / / / / | |--------------------->  &lt;-------------------------_>=-  │
+        │   | \===========| |                 ..-'./\.`-..                _,,-'      │
+        │   `-'           | |-------._------''_.-'----`-._``------_.-----'           │
+        │                 | |         ``----''            ``----''                   │
+        │                 | |                                                        │
+        │                 c--`                                                       │
+        ╘════════════════════════════════════════════════════════════════════════════╛
+
+        You reach the fifth circle of Hell, Wrath. Where you find Aquiles, a mighty greek
+        warrior said to be invincible, who challenges you to a duel for honor.
+        </text>
+        <options>
+            <option description="Accept the duel." nextDialogueId="aquilesBattle" />
+            <option description="Reject the duel and try to go past him." nextDialogueId="13" alternativeNextId="14"/>
+        </options>
+    </dialogue>
+    <dialogue id="13">
+        <text>
+        Aquiles enrages but when he tries to get you, you dodge him, and he hits his head
+        on a wall. While he recovers you make your escape.
+        </text>
+        <nextDialogueId>15</nextDialogueId>
+    </dialogue>
+    <dialogue id="14">
+        <text>
+        Aquiles enrages and marches towards you so fast you don't see him.
+        He stabs you multiple times.
+        </text>
+        <nextDialogueId>DEATH</nextDialogueId>
+    </dialogue>
+    <dialogue id="15">
+        <text>
+                        ╒════════════════════════════════════════════════╕
+                        │             (  .      )                        │
+                        │          )           (              )          │
+                        │                .  '   .   '  .  '  .           │
+                        │       (    , )       (.   )  (   ',    )       │
+                        │        .' ) ( . )    ,  ( ,     )   ( .        │
+                        │     ). , ( .   (  ) ( , ')  .' (  ,    )       │
+                        │    (_,) . ), ) _) _,')  (, ) '. )  ,. (' )     │
+                        │   ╔═══╗      ╔═══╗╔═══╗  ╔═══╗     ╔═══╗       │
+                        │   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   │
+                        ╘════════════════════════════════════════════════╛
+
+        After the encounter you keep walking until you get to the next circle of Hell, Heresy.
+        There you see tons of tombs on fire, where Epicurus and his followers are trapped,
+        he offers to give you a forbidden power if you let go of your faith and pry open
+        the flaming tomb in which he is trapped.
+        </text>
+        <options>
+            <option description="Accept the offer letting go of your faith and helping him." nextDialogueId="16" reward="The Heresy Knowledge"/>
+            <option description="Reject the offer and try to continue." nextDialogueId="demonBattle"/>
+        </options>
+    </dialogue>
+    <dialogue id="16">
+        <text>
+        Epicurus gives you a wand he calls 'The Heresy Knowledge', with which you can find
+        out an opponent's weakness and use it against them, and you go on with you journey.
+        </text>
+        <nextDialogueId>17</nextDialogueId>
+    </dialogue>
+    <dialogue id="17">
+        <text>
+                            ╒═══════════════════════════════════╕
+                            │                 / _\ #            │
+                            │                  \c /  #          │
+                            │                 / \___ #          │
+                            │                 \`----`#==>       │
+                            │                  |  \  #          │
+                            │       ,%.-"""---'`--'\#_          │
+                            │      %%/             |__`\        │
+                            │     .%'\     |   \   /  //        │
+                            │     ,%' >   .'----\ |  [/         │
+                            │        &lt; &lt;&lt;`       ||             │
+                            │         `\\\       ||             │
+                            │           )\\      )\             │
+                            │   ^^^^^^^^"""^^^^^^""^^^^^^^^^^   │
+                            ╘═══════════════════════════════════╛
+
+        You get to the seventh circle of Hell, the Violent and Bestial. You find Chiron,
+        a centaur, who offers to get you to the other side of the flaming river safely with
+        his boat if you give him a valuable object.
+        </text>
+        <options>
+            <option description="Give him 'Cerberus` Tooth' so he helps you cross safely." nextDialogueId="18" objectNeeded="Cerberus' Tooth"/>
+            <option description="Deny him the object and try to continue." nextDialogueId="19" reward="5 Sins"/>
+            <option description="Try to knock him out to get his boat for yourself." nextDialogueId="chironBattle"/>
+        </options>
+    </dialogue>
+    <dialogue id="18">
+        <text>
+        You give Chiron the tooth, and he takes you with his boat to the other side of the river.
+        You get 5 Sin points.
+        </text>
+        <nextDialogueId>20</nextDialogueId>
+    </dialogue>
+    <dialogue id="19">
+        <text>
+        Chiron leaves you to fetch for yourself and you take a while to cross the river,
+        burning yourself badly in the process. You get 15 Sin points.
+        </text>
+        <nextDialogueId>20</nextDialogueId>
+    </dialogue>
+    <dialogue id="20">
+        <text>
+                               ⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣤⠀⠀⠀⠀⠀⠀⢀⣴⣶⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀
+                               ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⡷⠀⠀⠀⠀⠀⠀
+                               ⠀⠀⠀⣾⣦⣼⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠿⠿⣿⣿⣿⣿⣿⣧⣴⣆
+                               ⠀⠀⠀⠈⠻⣿⣿⣿⡿⠿⠛⢉⣠⣤⣶⣄⡀⠲⣤⡉⠻⣿⣿⣿⠟⠁
+                               ⠀⠀⠀⠀⠀⠈⠛⣉⣤⣶⣿⣿⣿⣿⣿⣿⣿⣆⣸⣿⣦⣽⠟⠁⠀⠀⠀⠀⠀⠀
+                                ⠀⠀⠀⠀⠀⢠⣾⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣷⣄⠀⠀⠀⠀⠀
+                               ⠀⠀⠀⠀⣴⣿⡿⠟⠉⣀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠘⠻⢿⣷⠀⠀⠀⠀
+                               ⠀⠀⠀⠀⠛⠉⠀⣠⣾⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢁⣴⣦⡀⠀⠀⠀⠀⠀⠀
+                               ⠀⠀⠀⠀⠀⣠⣾⡿⠟⠋⣠⣿⠋⣿⣿⣿⣿⣿⡟⢀⣾⠛⠻⣿⣷⣄⠀⠀⠀⠀
+                               ⠀⠀⢀⣴⣿⡿⠋⢀⣴⣿⠏⢁⣴⠿⠃⣸⣿⠏⢀⠘⢿⣷⣄⠈⠙⠿⣿⣦⡀⠀
+                               ⠀⢰⣿⠟⠁⢀⣴⣿⠟⠁⣠⣿⠃⣰⣾⡿⠃⠀⢿⣦⡀⠙⢿⣷⣦⡀⠈⠉⠁
+                               ⠀⠀⠀⢀⣴⣿⠟⠁⢀⣾⡿⠃⣰⣿⠟⠀⢾⣷⡀⠻⣿⣦⡀⠈⠻⣿⣷
+                                ⠀⠀⠀⠛⠛⠁⠀⠾⠿⠏⠀⠐⠿⠃⠀⠀⠀⠙⠃⠀⠈⠙⠛⠀⠀⠀⠀⠀⠀⠀
+
+        After crossing the river you arrive to the eighth circle of Hell, Fraud and Deceit.
+        You find Odysseus, who tells you that if you throw a soul to the river of lost souls
+        he will teach you the arts of deceit.
+        </text>
+        <options>
+            <option description="Accept the offer throwing a soul to the river of lost souls, making it suffer for eternity." nextDialogueId="21" reward="Circe's Gloves"/>
+            <option description="Reject the offer and try to continue." nextDialogueId="odysseusBattle"/>
+        </options>
+    </dialogue>
+    <dialogue id="21">
+        <text>
+        Odysseus shows you the art of deceit and gives you a pair of gloves,
+        'Circe's Gloves', which help the bearer steal and deceit everything
+        and anyone with a probability of failure.
+        </text>
+        <nextDialogueId>22</nextDialogueId>
+    </dialogue>
+    <dialogue id="22">
+        <text>
+        ╒═════════════════════════════════════════════════════════════════════════╕
+        │                        ==                     ==                        │
+        │                     &lt;^\()/^>               &lt;^\()/^>                     │
+        │                      \/  \/                 \/  \/                      │
+        │                       /__\      .  '  .      /__\                       │
+        │          ==            /\    .     |     .    /\            ==          │
+        │       &lt;^\()/^>       !_\/       '  |  '       \/_!       &lt;^\()/^>       │
+        │        \/  \/     !_/I_||  .  '   \'/   '  .  ||_I\_!     \/  \/        │
+        │         /__\     /I_/| ||      -== + ==-      || |\_I\     /__\         │
+        │         /_ \   !//|  | ||  '  .   /.\   .  '  || |  |\\!   /_ \         │
+        │        (-   ) /I/ |  | ||       .  |  .       || |  | \I\ (=   )        │
+        │         \__/!//|  |  | ||    '     |     '    || |  |  |\\!\__/         │
+        │         /  \I/ |  |  | ||       '  .  '    *  || |  |  | \I/  \         │
+        │        {_ __}  |  |  | ||                     || |  |  |  {____}        │
+        │     _!__|= ||  |  |  | ||   *      +          || |  |  |  ||  |__!_     │
+        │     _I__|  ||__|__|__|_||          A          ||_|__|__|__||- |__I_     │
+        │     -|--|- ||--|--|--|-||       __/_\__  *    ||-|--|--|--||= |--|-     │
+        │      |  |  ||  |  |  | ||      /\-'o'-/\      || |  |  |  ||  |  |      │
+        │      |  |= ||  |  |  | ||     _||:&lt;_>:||_     || |  |  |  ||= |  |      │
+        │      |  |- ||  |  |  | || *  /\_/=====\_/\  * || |  |  |  ||= |  |      │
+        │      |  |- ||  |  |  | ||  __|:_:_[I]_:_:|__  || |  |  |  ||- |  |      │
+        │     _|__|  ||__|__|__|_||:::::::::::::::::::::||_|__|__|__||  |__|_     │
+        │     -|--|= ||--|--|--|-||:::::::::::::::::::::||-|--|--|--||- |--|-     │
+        │         |- ||  |  |  | ||:::::::::::::::::::::|| |  |  |  ||= |  |      │
+        │  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~~~~~~~~    │
+        ╘═════════════════════════════════════════════════════════════════════════╛
+
+        You finally reach your final destination, the ninth circle of Hell, Betrayal.
+        Where Lucifer and the 'Heart of the Abyss' are trapped. Lucifer has the
+        'Heart of the Abyss' stored in a small box at his side, he will not give it up easily.
+        </text>
+        <options>
+            <option description="Attack Lucifer" nextDialogueId="luciferBattle" />
+            <option description="Use 'The Heresy Knowledge' to find his weakness and exploit it." nextDialogueId="23" objectNeeded="The Heresy Knowledge"/>
+            <option description="Take Lucifer's offer to work with him as rulers of Hell." nextDialogueId="24" objectNeeded="Heavy Sins"/>
+            <option description="Use 'Circe's Gloves' to try and get the 'Heart of the Abyss' from Lucifer." nextDialogueId="23" alternativeNextId="DEATH" objectNeeded="Circe's Gloves"/>
+        </options>
+    </dialogue>
+    <dialogue id="23">
+        <text>
+              ╒═══════════════════════════════════╕
+              │      |  \ \ | |/ /                │
+              │      |  |\ `' ' /                 │
+              │      |  ;'      \      / ,        │
+              │      | ;    _,   |    / / ,       │
+              │      | |   (  `-.;_,-' '-' ,      │
+              │      | `,   `-._       _,-'_      │
+              │      |,-`.    `.)    ,&lt;_,-'_,     │
+              │     ,'    `.   /   ,'  `;-' _,    │
+              │    ;        `./   /`,    \-'      │
+              │    |         /   |  ;\   |\       │
+              │    |        ;_,._|_,  `, ' \      │
+              │    |        \    \ `       `,     │
+              │    `      __ `    \         ;,    │
+              │     \   ,'  `      \,       ;;    │
+              │      \_(            ;,      ;;    │
+              │      |  \           `;,     ;;    │
+              │      |  |`.          `;;,   ;'    │
+              │      |  |  `-.        ;;;;,;'     │
+              │      |  |    |`-.._  ,;;;;;'      │
+              │      |  |    |   | ``';;;'        │
+              ╘═══════════════════════════════════╛
+
+        You got the 'Heart of the Abyss' which gives complete control over the abyssal power
+        and Hell to whoever has it. What will you do now?
+        </text>
+        <options>
+            <option description="Destroy the Heart and Hell to save everyone and stop all suffering." nextDialogueId="25" />
+            <option description="Use the Heart to be the new ruler of Hell." nextDialogueId="26"/>
+        </options>
+    </dialogue>
+    <dialogue id="24">
+        <text>
+        You decide to make a pact with Lucifer and reign alongside him over Hell.
+        </text>
+        <nextDialogueId>WIN</nextDialogueId>
+    </dialogue>
+    <dialogue id="25">
+        <text>
+        You decide to destroy the Heart and in the process you destroy Hell and yourself,
+        but every soul is ridden of their sins.
+        </text>
+        <nextDialogueId>WIN</nextDialogueId>
+    </dialogue>
+    <dialogue id="26">
+        <text>
+        You use the Heart to upgrade Hell and become its new ruler for all eternity.
+        </text>
+        <nextDialogueId>WIN</nextDialogueId>
+    </dialogue>
+
+    <dialogue id="DEATH">
+        <text>
+            ░█░█░█▀█░█░█░░░█▀▄░▀█▀░█▀▀░█▀▄░░░
+            ░░█░░█░█░█░█░░░█░█░░█░░█▀▀░█░█░░░
+            ░░▀░░▀▀▀░▀▀▀░░░▀▀░░▀▀▀░▀▀▀░▀▀░░▀░
+        </text>
+    </dialogue>
+    <dialogue id="WIN">
+        <text>
+            ░▀█▀░█░█░█▀▀░░░█▀▀░█▀█░█▀▄░░░
+            ░░█░░█▀█░█▀▀░░░█▀▀░█░█░█░█░░░
+            ░░▀░░▀░▀░▀▀▀░░░▀▀▀░▀░▀░▀▀░░▀░
+        </text>
+    </dialogue>
+</story>
